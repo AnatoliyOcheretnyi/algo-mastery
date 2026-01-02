@@ -8,7 +8,27 @@ Goal: implement twoSum(nums, target) and analyze time/space complexity.
 */
 
 function twoSum(nums, target) {
-  // TODO: implement
+  const result = []
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
+        return [i, j]
+      }
+    }
+  }
+  return result
+}
+
+// Alternative: O(n) time using a Map
+function twoSumWithMap(nums, target) {
+  const seen = new Map()
+  for (let i = 0; i < nums.length; i++) {
+    const need = target - nums[i]
+    if (seen.has(need)) {
+      return [seen.get(need), i]
+    }
+    seen.set(nums[i], i)
+  }
   return []
 }
 
@@ -20,6 +40,7 @@ const tests = [
 ]
 
 // Uncomment to run quick checks
-// for (const t of tests) {
-//   console.log(twoSum(t.nums, t.target), "expected", t.expected);
-// }
+for (const t of tests) {
+  console.log(twoSum(t.nums, t.target), 'expected', t.expected)
+  console.log(twoSumWithMap(t.nums, t.target), 'expected', t.expected)
+}
