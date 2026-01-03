@@ -7,8 +7,11 @@ Goal: implement reverseWords(s) and analyze time/space complexity.
 */
 
 function reverseWords(s) {
-  // TODO: implement
-  return ''
+  return s.trim().split(' ').filter(Boolean).reverse().join(' ')
+}
+
+function reverseWordsWithReg(s) {
+  return s.trim().split(/\s+/).reverse().join(' ')
 }
 
 // Test data
@@ -20,6 +23,6 @@ const tests = [
 ]
 
 // Uncomment to run quick checks
-// for (const t of tests) {
-//   console.log(reverseWords(t.s), 'expected', t.expected)
-// }
+for (const t of tests) {
+  console.log(reverseWords(t.s), 'expected', t.expected)
+}
