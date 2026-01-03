@@ -20,7 +20,7 @@ Goal: 1-3 задачі на день, з розбором складності.
 <details>
 <summary>Strings</summary>
 
-- [ ] JS/Strings/01_reverse_words.js
+- [x] JS/Strings/01_reverse_words.js
 
 </details>
 
