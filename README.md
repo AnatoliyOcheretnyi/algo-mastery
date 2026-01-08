@@ -21,6 +21,7 @@ Goal: 1-3 задачі на день, з розбором складності.
 <summary>Strings</summary>
 
 - [x] JS/Strings/01_reverse_words.js
+- [ ] JS/Strings/02_is_anagram.js
 
 </details>
 
@@ -28,6 +29,7 @@ Goal: 1-3 задачі на день, з розбором складності.
 <summary>HashMaps</summary>
 
 - [ ] JS/HashMaps/01_first_unique_char.js
+- [ ] JS/HashMaps/02_group_by_length.js
 
 </details>
 
