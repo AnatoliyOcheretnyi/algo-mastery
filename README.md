@@ -60,6 +60,34 @@ Goal: 1-3 задачі на день, з розбором складності.
 
 </details>
 
+<details>
+<summary>Loops</summary>
+
+- [x] GO/Loops/01_for_basics.go
+
+</details>
+
+<details>
+<summary>Slices</summary>
+
+- [x] GO/Slices/00_slices_basics.go
+
+</details>
+
+<details>
+<summary>Maps</summary>
+
+- [x] GO/Maps/00_maps_basics.go
+
+</details>
+
+<details>
+<summary>Functions</summary>
+
+- [x] GO/Functions/00_functions_basics.go
+
+</details>
+
 </details>
 
 ## Notes
