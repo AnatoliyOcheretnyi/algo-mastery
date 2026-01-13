@@ -34,6 +34,20 @@ Goal: 1-3 задачі на день, з розбором складності.
 </details>
 
 <details>
+<summary>Sorting</summary>
+
+- [ ] JS/Sorting/01_merge_sorted_arrays.js
+
+</details>
+
+<details>
+<summary>Recursion</summary>
+
+- [ ] JS/Recursion/01_power.js
+
+</details>
+
+<details>
 <summary>TwoPointers</summary>
 
 - [ ] JS/TwoPointers/01_reverse_string.js
@@ -85,6 +99,34 @@ Goal: 1-3 задачі на день, з розбором складності.
 <summary>Functions</summary>
 
 - [x] GO/Functions/00_functions_basics.go
+
+</details>
+
+<details>
+<summary>Recursion</summary>
+
+- [x] GO/Recursion/00_recursion_basics.go
+
+</details>
+
+<details>
+<summary>Pointers</summary>
+
+- [ ] GO/Pointers/00_pointers_basics.go
+
+</details>
+
+<details>
+<summary>Errors</summary>
+
+- [ ] GO/Errors/00_errors_basics.go
+
+</details>
+
+<details>
+<summary>Strings</summary>
+
+- [ ] GO/Strings/00_strings_basics.go
 
 </details>
 
