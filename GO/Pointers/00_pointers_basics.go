@@ -15,6 +15,9 @@ Tasks:
 7) setNilToZero(p **int): if *p is nil, allocate and set to 0.
 8) appendViaPointer(nums *[]int, v int): append value to slice via pointer.
 9) resetUser(u *User): set Name="" and Age=0 via pointer.
+10) doublePtr(p *int): multiply value by 2 via pointer.
+11) swapStrings(a, b *string): swap two strings via pointers.
+12) updateAgeIfAdult(u *User, age int): set age only if age >= 18.
 */
 
 type User struct {
@@ -55,6 +58,18 @@ func appendViaPointer(nums *[]int, v int) {
 }
 
 func resetUser(u *User) {
+	// TODO: implement
+}
+
+func doublePtr(p *int) {
+	// TODO: implement
+}
+
+func swapStrings(a, b *string) {
+	// TODO: implement
+}
+
+func updateAgeIfAdult(u *User, age int) {
 	// TODO: implement
 }
 
@@ -99,4 +114,21 @@ func main() {
 	u2 := User{Name: "Bob", Age: 40}
 	resetUser(&u2)
 	fmt.Println("Task 9:", u2, "expected", "{ 0}")
+
+	// Task 10
+	val := 7
+	doublePtr(&val)
+	fmt.Println("Task 10:", val, "expected", 14)
+
+	// Task 11
+	s1, s2 := "go", "js"
+	swapStrings(&s1, &s2)
+	fmt.Println("Task 11:", s1, s2, "expected", "js go")
+
+	// Task 12
+	u3 := User{Name: "Max", Age: 10}
+	updateAgeIfAdult(&u3, 16)
+	fmt.Println("Task 12:", u3.Age, "expected", 10)
+	updateAgeIfAdult(&u3, 21)
+	fmt.Println("Task 12:", u3.Age, "expected", 21)
 }
